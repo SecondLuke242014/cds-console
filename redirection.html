@@ -1,0 +1,15 @@
+<noscript><p style="color:red">Redirection requires javascript.</p></noscript>
+
+<h1 id="h">Redirecting you to url...</h1>
+
+If this did not, <a id="link">click here.</a>
+
+<script>
+  const url = new URLSearchParams(window.location.href)
+  var link = document.getElementById("link")
+  var h = document.getElementById("
+
+  h.innerHTML = "Redirecting you to"
+  
+  window.location.href = url.get("url")
+</script>
